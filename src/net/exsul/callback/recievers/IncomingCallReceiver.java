@@ -22,6 +22,7 @@ public class IncomingCallReceiver extends BroadcastReceiver {
         String state = bundle.getString(TelephonyManager.EXTRA_STATE);
 
         Log.i("IncomingCallReceiver","State: "+ state);
+        Toast.makeText(context, "State: "+ state, Toast.LENGTH_LONG).show();
 
         if(state.equalsIgnoreCase(TelephonyManager.EXTRA_STATE_RINGING))
         {

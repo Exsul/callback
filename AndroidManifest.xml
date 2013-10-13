@@ -5,20 +5,14 @@
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="3"/>
     <application android:label="@string/app_name">
-        <activity android:name=".MyActivity"
-                  android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
         <receiver android:name="net.exsul.callback.recievers.OutgoingCallReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
             </intent-filter>
         </receiver>
 
-        <receiver android:name="net.exsul.callback.recievers.IncomingCallReceiver">
+
+        <receiver android:name="net.exsul.callback.recievers.StateChanged">
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE"/>
             </intent-filter>
