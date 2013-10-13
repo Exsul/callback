@@ -13,6 +13,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".DialogActivity"
+                  android:theme="@android:style/Theme.Translucent"
+                  android:noHistory="true"
+                />
         <receiver android:name="net.exsul.callback.receivers.OutgoingCallReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
