@@ -1,4 +1,4 @@
-package net.exsul.callback.recievers;
+package net.exsul.callback.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -23,6 +23,7 @@ public class OutgoingCallReceiver extends BroadcastReceiver {
 
         String info = "Detect Calls sample application\nOutgoing number: " + phonenumber;
 
-        Toast.makeText(context, info, Toast.LENGTH_LONG).show();
+        //Toast.makeText(context, info, Toast.LENGTH_LONG).show();
+        StateChanged.saved_phone = phonenumber;
     }
 }

@@ -25,12 +25,12 @@
     <file path="/IncomingCallReceiver.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381613606791" ignored="false" />
     <file path="/fragment.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381665441251" ignored="false" />
     <file path="/MyActivity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381615847256" ignored="false" />
-    <file path="/OutgoingCallReceiver.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381656280558" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381658526493" ignored="false" />
-    <file path="/StateChanged.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381665673372" ignored="false" />
-    <file path="/Switch.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381665567323" ignored="false" />
+    <file path="/OutgoingCallReceiver.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381666040786" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381667352096" ignored="false" />
+    <file path="/StateChanged.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381666075922" ignored="false" />
+    <file path="/Switch.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381665844925" ignored="false" />
     <file path="/CallbackService.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381664793514" ignored="false" />
-    <file path="/SwitchString.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381665560941" ignored="false" />
+    <file path="/SwitchString.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381665849430" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/IncomingCallReceiver.java" line="19" class="net.exsul.callback.recievers.IncomingCallReceiver" package="net.exsul.callback.recievers">
+      <breakpoint url="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/IncomingCallReceiver.java" line="19" class="net.exsul.callback.recievers.IncomingCallReceiver" package="net.exsul.callback.recievers">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -108,28 +108,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/MyActivity.java">
+      <file leaf-file-name="my_activity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/my_activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="59" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+            <state line="16" column="59" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IncomingCallReceiver.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/IncomingCallReceiver.java">
+      <file leaf-file-name="IncomingCallReceiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/IncomingCallReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="39" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.67650837">
+            <state line="29" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StateChanged.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/StateChanged.java">
+      <file leaf-file-name="StateChanged.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/StateChanged.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+            <state line="37" column="4" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.37859008">
               <folding />
             </state>
           </provider>
@@ -138,7 +138,7 @@
       <file leaf-file-name="Switch.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/Switch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="25" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
+            <state line="52" column="11" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,16 +149,16 @@
       <file leaf-file-name="SwitchString.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/SwitchString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+            <state line="4" column="11" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="OutgoingCallReceiver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/OutgoingCallReceiver.java">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/OutgoingCallReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+            <state line="25" column="10" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,7 +167,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+            <state line="21" column="73" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,14 +201,16 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/net/exsul/callback/recievers/IncomingCallReciever.java" />
-        <option value="$PROJECT_DIR$/src/net/exsul/callback/recievers/OutgoingCallReceiver.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback/recievers/IncomingCallReceiver.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback/CallbackService.java" />
-        <option value="$PROJECT_DIR$/src/net/exsul/callback/SwitchString.java" />
-        <option value="$PROJECT_DIR$/src/net/exsul/callback/recievers/StateChanged.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback/Switch.java" />
+        <option value="$PROJECT_DIR$/src/net/exsul/callback/SwitchString.java" />
+        <option value="$PROJECT_DIR$/src/net/exsul/callback/recievers/OutgoingCallReceiver.java" />
+        <option value="$PROJECT_DIR$/src/net/exsul/callback/recievers/StateChanged.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/net/exsul/callback/receivers/StateChanged.java" />
+        <option value="$PROJECT_DIR$/src/net/exsul/callback/receivers/OutgoingCallReceiver.java" />
       </list>
     </option>
   </component>
@@ -299,7 +301,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="recievers" />
+              <option name="myItemId" value="receivers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,7 +450,7 @@
     </configuration>
     <configuration default="false" name="callback" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="callback" />
-      <option name="ACTIVITY_CLASS" value="net.exsul.callback.MyActivity" />
+      <option name="ACTIVITY_CLASS" value="net.exsul.callback.my_activity" />
       <option name="MODE" value="do_nothing" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
@@ -610,7 +612,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/StateChanged.java">
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/StateChanged.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="31" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0">
           <folding />
@@ -626,7 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/OutgoingCallReceiver.java">
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/OutgoingCallReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
           <folding />
@@ -640,21 +642,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/MyActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/my_activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/IncomingCallReceiver.java">
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/IncomingCallReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="33" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/OutgoingCallReceiver.java">
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/OutgoingCallReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="735" selection-end="799" vertical-scroll-proportion="0.0">
           <folding />
@@ -668,23 +670,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/MyActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/my_activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="59" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/OutgoingCallReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+        <state line="16" column="59" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -696,32 +684,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/SwitchString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/Switch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="25" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
+        <state line="52" column="11" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/StateChanged.java">
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/SwitchString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+        <state line="4" column="11" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/recievers/IncomingCallReceiver.java">
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/IncomingCallReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="39" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.67650837">
+        <state line="29" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/OutgoingCallReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="10" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="73" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback/receivers/StateChanged.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="4" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.37859008">
           <folding />
         </state>
       </provider>

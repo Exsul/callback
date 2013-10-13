@@ -1,4 +1,4 @@
-package net.exsul.callback.recievers;
+package net.exsul.callback.receivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

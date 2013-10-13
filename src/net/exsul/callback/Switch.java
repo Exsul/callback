@@ -1,9 +1,5 @@
 package net.exsul.callback;
 
-import android.content.Context;
-import android.widget.Toast;
-import net.exsul.callback.recievers.StateChanged;
-
 public class Switch<T> {
     private Long last_change_time, last_state_duration;
     private T value, prev;
@@ -54,7 +50,7 @@ public class Switch<T> {
         return Equal(Previos(), prev) && Equal(Current(), cur);
     }
 
-    protected boolean Equal( final T a, final T b ) {
+    public boolean Equal( final T a, final T b ) {
         return a == b;
     }
 
