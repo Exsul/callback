@@ -10,16 +10,20 @@ import net.exsul.callback2.Switch;
 import net.exsul.callback2.SwitchString;
 
 public class StateChanged extends BroadcastReceiver {
-    static Switch<String> state_monitor = new SwitchString();
+    static Switch<String> state_monitor = null;
     public static String saved_phone = "bug: deinited";
-    public static Context debug_context;
 
     public StateChanged() {
     }
 
+    private Switch<String> GetMonitor() {
+        if (state_monitor == null)
+            state_monitor = new SwitchString();
+        return state_monitor;
+    }
+
     @Override
     public void onReceive(Context context, Intent intent) {
-        debug_context = context;
         Bundle bundle = intent.getExtras();
 
         if(null == bundle)
@@ -27,20 +31,20 @@ public class StateChanged extends BroadcastReceiver {
 
         String state = bundle.getString(TelephonyManager.EXTRA_STATE);
         if (OnChangedState(state)) {
-           CallEnded(context, state_monitor.PreviosDuration());
+           CallEnded(context, GetMonitor().PreviosDuration());
         }
     }
 
 
     private boolean OnChangedState( String state ) {
-      state_monitor.Update(state);
-      return state_monitor.ChangedTo(TelephonyManager.EXTRA_STATE_OFFHOOK, TelephonyManager.EXTRA_STATE_IDLE);
+      GetMonitor().Update(state);
+      return GetMonitor().ChangedTo(TelephonyManager.EXTRA_STATE_OFFHOOK, TelephonyManager.EXTRA_STATE_IDLE);
     }
 
     private void CallEnded( Context context, Long duration ) {
+        state_monitor = null;
         if (duration > 10)
             return;
-        //Toast.makeText(context, "Pre activity", Toast.LENGTH_LONG).show();
 
         Intent i = new Intent();
         i.setClassName("net.exsul.callback2", "net.exsul.callback2.DialogActivity");
