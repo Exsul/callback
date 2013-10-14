@@ -1,19 +1,13 @@
-package net.exsul.callback.receivers;
+package net.exsul.callback2.receivers;
 
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
 import android.widget.Toast;
-import net.exsul.callback.Switch;
-import net.exsul.callback.SwitchString;
-
-import java.util.Date;
+import net.exsul.callback2.Switch;
+import net.exsul.callback2.SwitchString;
 
 public class StateChanged extends BroadcastReceiver {
     static Switch<String> state_monitor = new SwitchString();

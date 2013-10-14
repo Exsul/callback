@@ -1,4 +1,4 @@
-package net.exsul.callback;
+package net.exsul.callback2;
 
 public class SwitchString extends Switch<String> {
     @Override

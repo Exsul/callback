@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="net.exsul.callback"
+          package="net.exsul.callback2"
           android:versionCode="2"
           android:versionName="0.0">
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
@@ -17,13 +17,13 @@
                   android:theme="@android:style/Theme.Translucent"
                   android:noHistory="true"
                 />
-        <receiver android:name="net.exsul.callback.receivers.OutgoingCallReceiver">
+        <receiver android:name="net.exsul.callback2.receivers.OutgoingCallReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
             </intent-filter>
         </receiver>
 
-        <receiver android:name="net.exsul.callback.receivers.StateChanged">
+        <receiver android:name="net.exsul.callback2.receivers.StateChanged">
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE"/>
             </intent-filter>

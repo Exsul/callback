@@ -1,4 +1,4 @@
-package net.exsul.callback;
+package net.exsul.callback2;
 
 public class Switch<T> {
     private Long last_change_time, last_state_duration;

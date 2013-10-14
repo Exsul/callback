@@ -1,4 +1,4 @@
-package net.exsul.callback;
+package net.exsul.callback2;
 
 import android.app.Activity;
 import android.app.AlertDialog;
