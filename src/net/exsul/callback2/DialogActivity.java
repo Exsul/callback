@@ -19,7 +19,7 @@ public class DialogActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       // Toast.makeText(this, "In activity", Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, "In activity", Toast.LENGTH_LONG).show();
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("У вас закончились средства? Попросить перезвонить " + StateChanged.saved_phone + "?")
                 .setPositiveButton("Да", new DialogInterface.OnClickListener() {

@@ -38,12 +38,12 @@ public class StateChanged extends BroadcastReceiver {
     }
 
     private void CallEnded( Context context, Long duration ) {
-        if (duration > 20)
+        if (duration > 10)
             return;
-        Toast.makeText(context, "Pre activity", Toast.LENGTH_LONG).show();
+        //Toast.makeText(context, "Pre activity", Toast.LENGTH_LONG).show();
 
         Intent i = new Intent();
-        i.setClassName("net.exsul.callback", "net.exsul.callback.DialogActivity");
+        i.setClassName("net.exsul.callback2", "net.exsul.callback2.DialogActivity");
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         i.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         context.startActivity(i);

@@ -16,25 +16,10 @@ public class my_activity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         Context context = getApplicationContext();
-        CharSequence text = "Callback application installed";
+        CharSequence text = "Приложение уже установилось.\nЗапускать не требуется.";
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Do you want callback")
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-
-                        // FIRE ZE MISSILES!
-                    }
-                })
-                .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        // User cancelled the dialog
-                    }
-                });
-        // Create the AlertDialog object and return it
-        builder.show();
+        finish();
     }
 }
