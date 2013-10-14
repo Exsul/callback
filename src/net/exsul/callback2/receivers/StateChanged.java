@@ -43,6 +43,7 @@ public class StateChanged extends BroadcastReceiver {
 
     private void CallEnded( Context context, Long duration ) {
         state_monitor = null;
+        System.gc();
         if (duration > 10)
             return;
 

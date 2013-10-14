@@ -21,5 +21,6 @@ public class my_activity extends Activity {
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
         finish();
+        System.gc();
     }
 }

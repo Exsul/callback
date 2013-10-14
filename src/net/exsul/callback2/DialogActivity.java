@@ -41,7 +41,7 @@ public class DialogActivity extends Activity {
     @Override
     public void onStop() {
         super.onStop();
-        //Toast.makeText(this, "OnStop", Toast.LENGTH_LONG).show();
+        System.gc();
     }
 
     public void MakeCallback(){
