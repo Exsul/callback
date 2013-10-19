@@ -3,6 +3,7 @@ package net.exsul.callback2.receivers;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
 import android.widget.Toast;
@@ -12,6 +13,7 @@ import net.exsul.callback2.SwitchString;
 public class StateChanged extends BroadcastReceiver {
     static Switch<String> state_monitor = null;
     public static String saved_phone = "bug: deinited";
+    public static String pre_value = null;
 
     public StateChanged() {
     }
@@ -51,5 +53,10 @@ public class StateChanged extends BroadcastReceiver {
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         i.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         context.startActivity(i);
+    }
+
+    public static void SetNewPreModifyer( final String pre ) {
+
+
     }
 }

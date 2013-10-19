@@ -26,6 +26,32 @@
                 android:id="@+id/textView" android:layout_gravity="left|center_vertical"
                 android:layout_alignLeft="@+id/textView2" android:layout_alignParentTop="true"
                 android:layout_marginTop="29dp"/>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_alignParentLeft="true"
+                android:layout_marginLeft="7dp" android:layout_below="@+id/textView">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:id="@+id/textView3"
+                    android:layout_alignLeft="@+id/textView2" android:layout_alignBottom="@+id/editText"/>
+            <EditText
+                    android:layout_width="56dp"
+                    android:layout_height="wrap_content"
+                    android:text="144"
+                    android:id="@+id/editText"
+                    android:layout_alignParentLeft="true" android:layout_marginLeft="12dp"
+                    android:layout_below="@+id/textView" android:phoneNumber="false" android:enabled="false"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*ТЕЛЕФОН#"
+                    android:id="@+id/textView4"
+                    android:layout_alignParentLeft="true" android:layout_marginLeft="18dp"
+                    android:layout_alignBottom="@+id/editText" android:layout_gravity="center_horizontal|top"
+                    android:layout_marginBottom="2dp"/>
+        </TableRow>
     </RelativeLayout>
 </LinearLayout>
 

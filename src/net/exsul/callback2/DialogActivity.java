@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import net.exsul.callback2.receivers.StateChanged;
@@ -47,9 +48,16 @@ public class DialogActivity extends Activity {
     public void MakeCallback(){
         Intent intent = new Intent(Intent.ACTION_DIAL);
 
-        String enc = "tel:*144*" + StateChanged.saved_phone + Uri.encode("#");
+        String enc = "tel:*" + Uri.encode(getPreValue()) + "*" + StateChanged.saved_phone + Uri.encode("#");
         intent.setData(Uri.parse(enc));
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
+    }
+
+    private String getPreValue() {
+        if (StateChanged.pre_value != null)
+            return StateChanged.pre_value;
+        SharedPreferences pref = getSharedPreferences("v2", MODE_PRIVATE);
+        return StateChanged.pre_value = pref.getString("pre", "144");
     }
 }

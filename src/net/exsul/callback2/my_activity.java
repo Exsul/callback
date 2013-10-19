@@ -3,9 +3,12 @@ package net.exsul.callback2;
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class my_activity extends Activity {
@@ -56,13 +59,14 @@ public class my_activity extends Activity {
     }
 
     @Override
-    public boolean dispatchTouchEvent(MotionEvent ev) {
-        finish();
-        return super.dispatchTouchEvent(ev);
-    }
-
-    @Override
     public void onStop() {
+        EditText view = (EditText)findViewById(R.id.editText);
+        String pre = view.getText().toString();
+        SharedPreferences pref = getSharedPreferences("v2", MODE_PRIVATE);
+        SharedPreferences.Editor editor = pref.edit();
+        editor.putString("pre", pre);
+        editor.commit();
+
         context = null;
         pm = null;
         cn = null;
