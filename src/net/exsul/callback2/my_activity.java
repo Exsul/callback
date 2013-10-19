@@ -65,14 +65,13 @@ public class my_activity extends Activity {
     public void onStop() {
         EditText view = (EditText)findViewById(R.id.editText);
         String pre = view.getText().toString();
-        SharedPreferences pref = getSharedPreferences("v2", MODE_PRIVATE);
-        SharedPreferences.Editor editor = pref.edit();
-        editor.putString("pre", pre);
-        editor.commit();
+        if (!pre.equals("144")) {
+            SharedPreferences pref = getSharedPreferences("v2", MODE_PRIVATE);
+            SharedPreferences.Editor editor = pref.edit();
+            editor.putString("pre", pre);
+            editor.commit();
+        }
 
-        context = null;
-        pm = null;
-        cn = null;
         super.onStop();
     }
 }
