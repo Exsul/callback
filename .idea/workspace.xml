@@ -53,7 +53,7 @@
     <file path="/SwitchString.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381665849430" ignored="false" />
     <file path="/CallbackDialog.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381668107126" ignored="false" />
     <file path="/my_activity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382216537828" ignored="false" />
-    <file path="/DialogActivity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381724258883" ignored="false" />
+    <file path="/DialogActivity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382217246386" ignored="false" />
     <file path="/strings.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382215285073" ignored="false" />
     <file path="/main.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382215934809" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -162,7 +162,7 @@
       <file leaf-file-name="DialogActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="23" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
+            <state line="36" column="36" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -198,7 +198,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="37" selection-start="666" selection-end="666" vertical-scroll-proportion="0.37080538">
+            <state line="3" column="32" selection-start="180" selection-end="180" vertical-scroll-proportion="0.08557047">
               <folding />
             </state>
           </provider>
@@ -276,11 +276,11 @@
         <option value="$PROJECT_DIR$/src/net/exsul/callback/receivers/StateChanged.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback/DialogActivity.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callmeback/DialogActivity.java" />
-        <option value="$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback2/receivers/StateChanged.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback2/my_activity.java" />
+        <option value="$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
@@ -855,13 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="23" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/receivers/StateChanged.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="29" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
@@ -902,9 +895,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="36" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="37" selection-start="666" selection-end="666" vertical-scroll-proportion="0.37080538">
+        <state line="3" column="32" selection-start="180" selection-end="180" vertical-scroll-proportion="0.08557047">
           <folding />
         </state>
       </provider>

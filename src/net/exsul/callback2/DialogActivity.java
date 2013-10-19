@@ -33,7 +33,8 @@ public class DialogActivity extends Activity {
                         finish();
                         // User cancelled the dialog
                     }
-                });
+                })
+                .setCancelable(false);
         // Create the AlertDialog object and return it
         builder.show();
     }
