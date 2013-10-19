@@ -41,7 +41,6 @@ public class DialogActivity extends Activity {
     @Override
     public void onStop() {
         super.onStop();
-        System.gc();
     }
 
     public void MakeCallback(){

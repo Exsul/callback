@@ -16,11 +16,10 @@ public class my_activity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         Context context = getApplicationContext();
-        CharSequence text = "Приложение уже установилось.\nЗапускать не требуется.";
+        CharSequence text = "Регистрация службы успешно завершена.";
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
         finish();
-        System.gc();
     }
 }
