@@ -1,20 +1,16 @@
 package net.exsul.callback2;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.content.ComponentName;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.widget.Toast;
 
 public class my_activity extends Activity {
-    /**
-     * Called when the activity is first created.
-     */
-
-    private Context context;
+    private Context context = null;
+    private PackageManager pm = null;
+    private ComponentName cn = null;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -26,8 +22,7 @@ public class my_activity extends Activity {
             showToast("Служба уже зарегистрирована.");
             showToast("Иконка скроется после перезагрузки телефона.");
         }
-        else
-        {
+        else {
           hideFromMenu();
           showToast("Регистрация службы успешно завершена.");
         }
@@ -35,17 +30,12 @@ public class my_activity extends Activity {
     }
 
     private void hideFromMenu() {
-        PackageManager pm = getPackageManager();
-        ComponentName cn = new ComponentName(getApplicationContext(), Activity.class);
-        pm.setComponentEnabledSetting(cn, PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
-
+        pm().setComponentEnabledSetting(cn(), PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
         assert(getThisActivityHided());
     }
 
     private boolean getThisActivityHided() {
-        PackageManager pm = getPackageManager();
-        ComponentName cn = new ComponentName(getApplicationContext(), Activity.class);
-        return pm.getComponentEnabledSetting(cn) == PackageManager.COMPONENT_ENABLED_STATE_DISABLED;
+        return pm().getComponentEnabledSetting(cn()) == PackageManager.COMPONENT_ENABLED_STATE_DISABLED;
     }
 
     private void showToast( String text ) {
@@ -53,7 +43,22 @@ public class my_activity extends Activity {
         Toast.makeText(context, text, duration).show();
     }
 
+    private PackageManager pm() {
+        if (pm == null)
+            pm = getPackageManager();
+        return pm;
+    }
+
+    private ComponentName cn() {
+        if (cn == null)
+            cn = new ComponentName(context, Activity.class);
+        return cn;
+    }
+
+    @Override
     public void onStop() {
         context = null;
+        pm = null;
+        cn = null;
     }
 }
