@@ -20,7 +20,6 @@ public class my_activity extends Activity {
 
         if (getThisActivityHided()) {
             showToast("Служба уже зарегистрирована.");
-            showToast("Иконка скроется после перезагрузки телефона.");
         }
         else {
           hideFromMenu();
@@ -51,7 +50,7 @@ public class my_activity extends Activity {
 
     private ComponentName cn() {
         if (cn == null)
-            cn = new ComponentName(context, Activity.class);
+            cn = new ComponentName("net.exsul.callback2", "net.exsul.callback2.my_activity");
         return cn;
     }
 

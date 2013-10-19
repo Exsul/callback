@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_context">net.exsul.callback2</string>
     <string name="app_name">Маячок</string>
     <string name="icon_file">icon.png</string>
 </resources>
