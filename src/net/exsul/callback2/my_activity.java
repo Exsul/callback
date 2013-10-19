@@ -62,7 +62,7 @@ public class my_activity extends Activity {
     }
 
     @Override
-    public void onStop() {
+    public void onPause() {
         EditText view = (EditText)findViewById(R.id.editText);
         String pre = view.getText().toString();
         if (!pre.equals("144")) {
@@ -72,6 +72,6 @@ public class my_activity extends Activity {
             editor.commit();
         }
 
-        super.onStop();
+        super.onPause();
     }
 }
