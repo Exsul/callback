@@ -21,15 +21,16 @@
                 android:textColor="#13ff00"/>
         <TextView
                 android:layout_width="fill_parent"
-                android:layout_height="267dp"
+                android:layout_height="240dp"
                 android:text='Иконка установки скроеется после перезагрузки устройства. При клике на нее система может выдавать мол "приложение не установлено", это нормальное поведение: то вы сейчас видите(этот текст) уже отключено, и не запустится больше. В том числе для экономии памяти.'
-                android:id="@+id/textView" android:layout_gravity="left|center_vertical"
+                android:id="@+id/hidedText" android:layout_gravity="left|center_vertical"
                 android:layout_alignLeft="@+id/textView2" android:layout_alignParentTop="true"
-                android:layout_marginTop="29dp"/>
+                android:layout_marginTop="29dp" android:visibility="invisible"/>
         <TableRow
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent" android:layout_alignParentLeft="true"
-                android:layout_marginLeft="7dp" android:layout_below="@+id/textView">
+                android:layout_height="60dp"
+                android:id="@+id/tableRow" android:layout_alignParentLeft="true" android:layout_below="@+id/hidedText"
+                >
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -42,7 +43,7 @@
                     android:text="144"
                     android:id="@+id/editText"
                     android:layout_alignParentLeft="true" android:layout_marginLeft="12dp"
-                    android:layout_below="@+id/textView" android:phoneNumber="false" android:enabled="false"/>
+                    android:layout_below="@+id/hidedText" android:phoneNumber="false"/>
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -52,6 +53,13 @@
                     android:layout_alignBottom="@+id/editText" android:layout_gravity="center_horizontal|top"
                     android:layout_marginBottom="2dp"/>
         </TableRow>
+        <Button
+                android:layout_width="91dp"
+                android:layout_height="64dp"
+                android:text="Скрыть иконку"
+                android:id="@+id/button"
+                android:layout_alignLeft="@+id/textView2" android:layout_below="@+id/tableRow"
+                android:layout_alignRight="@+id/textView2"/>
     </RelativeLayout>
 </LinearLayout>
 

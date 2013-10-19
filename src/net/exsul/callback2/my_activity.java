@@ -24,12 +24,15 @@ public class my_activity extends Activity {
 
         if (getThisActivityHided()) {
             showToast("Служба уже зарегистрирована.");
+            finish();
         }
-        else {
-          hideFromMenu();
-          //showToast("Регистрация службы успешно завершена.");
-        }
-        //showToast("Иконка установки скроется после перезагрузки.");
+        findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                hideFromMenu();
+                findViewById(R.id.hidedText).setVisibility(View.VISIBLE);
+                showToast("Иконка скрыта.");
+            }
+        });
     }
 
     private void hideFromMenu() {

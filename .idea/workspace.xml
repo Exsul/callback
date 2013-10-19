@@ -14,7 +14,7 @@
   <component name="AndroidDesignerProfile">
     <option name="fullProfile">
       <profile>
-        <option name="device" value="3.2in HVGA slider (ADP1)" />
+        <option name="device" value="2.7in QVGA" />
         <option name="deviceConfiguration" value="Portrait" />
         <option name="targetHashString" value="android-3" />
         <option name="theme" value="Theme" />
@@ -38,7 +38,7 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/net/exsul/callback2/my_activity.java" line="62" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/src/net/exsul/callback2/my_activity.java" line="65" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fd60c84-78a3-41a5-8bcc-5c8076079689" name="Default" comment="" />
@@ -55,10 +55,10 @@
     <file path="/CallbackService.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381664793514" ignored="false" />
     <file path="/SwitchString.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381665849430" ignored="false" />
     <file path="/CallbackDialog.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381668107126" ignored="false" />
-    <file path="/my_activity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382221690403" ignored="false" />
+    <file path="/my_activity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382223550770" ignored="false" />
     <file path="/DialogActivity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382221957634" ignored="false" />
     <file path="/strings.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382215285073" ignored="false" />
-    <file path="/main.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382215934809" ignored="false" />
+    <file path="/main.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382222932390" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/net/exsul/callback2/my_activity.java" line="36" class="net.exsul.callback2.my_activity" package="net.exsul.callback2">
+      <breakpoint url="file://$PROJECT_DIR$/src/net/exsul/callback2/my_activity.java" line="39" class="net.exsul.callback2.my_activity" package="net.exsul.callback2">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -151,21 +151,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="my_activity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/my_activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="28" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DialogActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="2237" selection-end="2237" vertical-scroll-proportion="0.0">
+            <state line="40" column="58" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -227,10 +216,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="my_activity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/my_activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="41" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.22852512">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#889#1134#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1150" selection-end="1150" vertical-scroll-proportion="-15.64">
+            <state line="30" column="41" selection-start="1818" selection-end="1818" vertical-scroll-proportion="-6.52">
               <folding />
             </state>
           </provider>
@@ -285,8 +287,8 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback2/receivers/StateChanged.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback2/my_activity.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
       </list>
     </option>
   </component>
@@ -719,11 +721,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.6718507" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.6718507" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.6718507" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.6718507" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.6718507" order="-1" side_tool="false" content_ui="tabs" />
@@ -906,30 +908,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="30" column="41" selection-start="1818" selection-end="1818" vertical-scroll-proportion="-6.52">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2237" selection-end="2237" vertical-scroll-proportion="0.0">
+        <state line="40" column="58" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/my_activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
+        <state line="32" column="41" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.22852512">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#889#1134#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1150" selection-end="1150" vertical-scroll-proportion="-15.64">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>
