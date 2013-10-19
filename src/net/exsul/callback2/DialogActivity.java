@@ -18,10 +18,10 @@ import net.exsul.callback2.receivers.StateChanged;
  */
 public class DialogActivity extends Activity {
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate( final Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
         //Toast.makeText(this, "In activity", Toast.LENGTH_LONG).show();
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("У вас закончились средства? Попросить перезвонить " + StateChanged.saved_phone + "?")
                 .setPositiveButton("Да", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
@@ -46,9 +46,9 @@ public class DialogActivity extends Activity {
     }
 
     public void MakeCallback(){
-        Intent intent = new Intent(Intent.ACTION_DIAL);
+        final Intent intent = new Intent(Intent.ACTION_DIAL);
 
-        String enc = "tel:*" + Uri.encode(getPreValue()) + "*" + StateChanged.saved_phone + Uri.encode("#");
+        final String enc = "tel:*" + Uri.encode(getPreValue()) + "*" + StateChanged.saved_phone + Uri.encode("#");
         intent.setData(Uri.parse(enc));
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
@@ -57,7 +57,7 @@ public class DialogActivity extends Activity {
     private String getPreValue() {
         if (StateChanged.pre_value != null)
             return StateChanged.pre_value;
-        SharedPreferences pref = getSharedPreferences("v2", MODE_PRIVATE);
+        final SharedPreferences pref = getSharedPreferences("v2", MODE_PRIVATE);
         return StateChanged.pre_value = pref.getString("pre", "144");
     }
 }

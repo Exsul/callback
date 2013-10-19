@@ -1,15 +1,15 @@
 package net.exsul.callback2;
 
-public class Switch<T> {
+public class Switch {
     private Long last_change_time, last_state_duration;
-    private T value, prev;
+    private String value, prev;
     private boolean inited;
 
     public Switch() {
         inited = false;
     }
 
-    public boolean Update( T new_state ) {
+    public boolean Update( String new_state ) {
         if (IsInited())
             if (value == new_state)
                 return false;
@@ -32,17 +32,17 @@ public class Switch<T> {
         return GetCurrentTime() - last_state_duration;
     }
 
-    public T Current() {
+    public String Current() {
         assert(IsInited());
         return value;
     }
 
-    public T Previos() {
+    public String Previos() {
         assert(!IsFirstState());
         return prev;
     }
 
-    public boolean ChangedTo( T prev, T cur ) {
+    public boolean ChangedTo( String prev, String cur ) {
         if (!IsInited())
             return false;
         if (IsFirstState())
@@ -50,11 +50,11 @@ public class Switch<T> {
         return Equal(Previos(), prev) && Equal(Current(), cur);
     }
 
-    public boolean Equal( final T a, final T b ) {
-        return a == b;
+    public boolean Equal( final String a, final String b ) {
+        return a.equalsIgnoreCase(b);
     }
 
-    private void UpdateState( T new_state ) {
+    private void UpdateState( String new_state ) {
         if (!IsInited()){
             Init(new_state);
             return;
@@ -71,7 +71,7 @@ public class Switch<T> {
         return inited;
     }
 
-    private void Init( T new_state ) {
+    private void Init( String new_state ) {
         assert(!IsInited());
         inited = true;
         last_state_duration = last_change_time = GetCurrentTime();

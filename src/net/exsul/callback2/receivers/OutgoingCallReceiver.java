@@ -8,9 +8,8 @@ import android.os.Bundle;
 public class OutgoingCallReceiver extends BroadcastReceiver {
 
     @Override
-    public void onReceive(Context context, Intent intent) {
-        Bundle bundle = intent.getExtras();
-        if(null == bundle)
+    public void onReceive( final Context context, final Intent intent ) {
+        if(intent.getExtras() == null)
             return;
         StateChanged.saved_phone = intent.getStringExtra(Intent.EXTRA_PHONE_NUMBER);
     }

@@ -17,7 +17,7 @@ public class my_activity extends Activity {
     private ComponentName cn = null;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate( final Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         context = getApplicationContext();
@@ -63,11 +63,12 @@ public class my_activity extends Activity {
 
     @Override
     public void onPause() {
-        EditText view = (EditText)findViewById(R.id.editText);
-        String pre = view.getText().toString();
+        final EditText view = (EditText)findViewById(R.id.editText);
+        final String pre = view.getText().toString();
+
         if (!pre.equals("144")) {
-            SharedPreferences pref = getSharedPreferences("v2", MODE_PRIVATE);
-            SharedPreferences.Editor editor = pref.edit();
+            final SharedPreferences pref = getSharedPreferences("v2", MODE_PRIVATE);
+            final SharedPreferences.Editor editor = pref.edit();
             editor.putString("pre", pre);
             editor.commit();
         }

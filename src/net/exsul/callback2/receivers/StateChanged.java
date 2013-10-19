@@ -3,29 +3,23 @@ package net.exsul.callback2.receivers;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
-import android.widget.Toast;
 import net.exsul.callback2.Switch;
-import net.exsul.callback2.SwitchString;
 
 public class StateChanged extends BroadcastReceiver {
-    static Switch<String> state_monitor = null;
-    public static String saved_phone = "bug: deinited";
+    static Switch state_monitor = null;
+    public static String saved_phone = "";
     public static String pre_value = null;
 
-    public StateChanged() {
-    }
-
-    private Switch<String> GetMonitor() {
+    private Switch GetMonitor() {
         if (state_monitor == null)
-            state_monitor = new SwitchString();
+            state_monitor = new Switch();
         return state_monitor;
     }
 
     @Override
-    public void onReceive(Context context, Intent intent) {
+    public void onReceive( final Context context, final Intent intent ) {
         Bundle bundle = intent.getExtras();
 
         if(null == bundle)
@@ -38,12 +32,12 @@ public class StateChanged extends BroadcastReceiver {
     }
 
 
-    private boolean OnChangedState( String state ) {
+    private boolean OnChangedState( final String state ) {
       GetMonitor().Update(state);
       return GetMonitor().ChangedTo(TelephonyManager.EXTRA_STATE_OFFHOOK, TelephonyManager.EXTRA_STATE_IDLE);
     }
 
-    private void CallEnded( Context context, Long duration ) {
+    private void CallEnded( final Context context, final Long duration ) {
         state_monitor = null;
         if (duration > 10)
             return;
@@ -53,10 +47,5 @@ public class StateChanged extends BroadcastReceiver {
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         i.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         context.startActivity(i);
-    }
-
-    public static void SetNewPreModifyer( final String pre ) {
-
-
     }
 }
