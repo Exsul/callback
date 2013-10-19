@@ -4,10 +4,28 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="44dp"
-            android:text="Регистрация службы..."
-            android:layout_gravity="left|center_vertical"/>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:text="Регистрация службы..."
+                android:layout_gravity="left|center_vertical" android:id="@+id/textView2"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:id="@+id/textView1" android:layout_gravity="right|center_vertical"
+                android:layout_toRightOf="@+id/textView2" android:layout_alignTop="@+id/textView2"
+                android:textColor="#13ff00"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="267dp"
+                android:text='Иконка установки скроеется после перезагрузки устройства. При клике на нее система может выдавать мол "приложение не установлено", это нормальное поведение: то вы сейчас видите(этот текст) уже отключено, и не запустится больше. В том числе для экономии памяти.'
+                android:id="@+id/textView" android:layout_gravity="left|center_vertical"
+                android:layout_alignLeft="@+id/textView2" android:layout_alignParentTop="true"
+                android:layout_marginTop="29dp"/>
+    </RelativeLayout>
 </LinearLayout>
 

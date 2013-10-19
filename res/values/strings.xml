@@ -2,5 +2,6 @@
 <resources>
     <string name="app_context">net.exsul.callback2</string>
     <string name="app_name">Маячок</string>
+    <string name="act_name">Маячок Установить</string>
     <string name="icon_file">icon.png</string>
 </resources>

@@ -7,7 +7,7 @@
     <uses-sdk android:minSdkVersion="1"/>
     <application android:label="@string/app_name" android:icon="@drawable/icon">
         <activity android:name="net.exsul.callback2.my_activity"
-                  android:label="@string/app_name"
+                  android:label="@string/act_name"
                   android:noHistory="true"
                 >
             <intent-filter>

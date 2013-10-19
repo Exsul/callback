@@ -5,6 +5,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.widget.Toast;
 
 public class my_activity extends Activity {
@@ -23,9 +24,9 @@ public class my_activity extends Activity {
         }
         else {
           hideFromMenu();
-          showToast("Регистрация службы успешно завершена.");
+          //showToast("Регистрация службы успешно завершена.");
         }
-        finish();
+        //showToast("Иконка установки скроется после перезагрузки.");
     }
 
     private void hideFromMenu() {
@@ -55,9 +56,16 @@ public class my_activity extends Activity {
     }
 
     @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        finish();
+        return super.dispatchTouchEvent(ev);
+    }
+
+    @Override
     public void onStop() {
         context = null;
         pm = null;
         cn = null;
+        super.onStop();
     }
 }
