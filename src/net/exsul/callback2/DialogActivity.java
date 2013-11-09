@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
+import net.exsul.callback2.Extra.MessageManager;
 import net.exsul.callback2.receivers.StateChanged;
 
 /**
@@ -25,18 +26,23 @@ public class DialogActivity extends Activity {
         builder.setMessage("У вас закончились средства? Попросить перезвонить " + StateChanged.saved_phone + "?")
                 .setPositiveButton("Да", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
+                        MessageManager.Instance().OnAccept(getApplicationContext());
+                        MessageManager.Instance().OnMessageClose(getApplicationContext());
                         MakeCallback();
                         // FIRE ZE MISSILES!
                     }
                 })
                 .setNegativeButton("Нет", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
+                        MessageManager.Instance().OnDeny(getApplicationContext());
+                        MessageManager.Instance().OnMessageClose(getApplicationContext());
                         finish();
                         // User cancelled the dialog
                     }
                 })
                 .setCancelable(false);
         // Create the AlertDialog object and return it
+        MessageManager.Instance().OnMessage(getApplicationContext());
         builder.show();
     }
 

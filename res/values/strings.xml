@@ -4,4 +4,5 @@
     <string name="app_name">Маячок</string>
     <string name="act_name">Маячок Установить</string>
     <string name="icon_file">icon.png</string>
+    <string name="best_before">01.01.2014</string>
 </resources>
