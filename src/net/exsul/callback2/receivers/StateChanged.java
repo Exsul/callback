@@ -5,12 +5,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
+import android.widget.Toast;
 import net.exsul.callback2.Switch;
 
 public class StateChanged extends BroadcastReceiver {
     static Switch state_monitor = null;
     public static String saved_phone = "";
     public static String pre_value = null;
+    static boolean disabled = false;
 
     private Switch GetMonitor() {
         if (state_monitor == null)
@@ -27,13 +29,21 @@ public class StateChanged extends BroadcastReceiver {
 
         String state = bundle.getString(TelephonyManager.EXTRA_STATE);
         if (OnChangedState(state)) {
-           CallEnded(context, GetMonitor().PreviosDuration());
+           if (disabled) {
+               Toast.makeText(context, "(Маячок) DEBUG: Звонок входящий, игнорирую.", Toast.LENGTH_SHORT).show();
+           }
+           else
+             CallEnded(context, GetMonitor().PreviosDuration());
         }
+        if (GetMonitor().Equal(GetMonitor().Current(), TelephonyManager.EXTRA_STATE_IDLE))
+            disabled = false;
     }
 
 
     private boolean OnChangedState( final String state ) {
       GetMonitor().Update(state);
+      if (GetMonitor().ChangedTo(TelephonyManager.EXTRA_STATE_RINGING, TelephonyManager.EXTRA_STATE_OFFHOOK))
+          disabled = true;
       return GetMonitor().ChangedTo(TelephonyManager.EXTRA_STATE_OFFHOOK, TelephonyManager.EXTRA_STATE_IDLE);
     }
 

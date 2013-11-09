@@ -1,5 +1,7 @@
 package net.exsul.callback2;
 
+import android.util.DebugUtils;
+
 public class Switch {
     private Long last_change_time, last_state_duration;
     private String value, prev;
@@ -51,6 +53,8 @@ public class Switch {
     }
 
     public boolean Equal( final String a, final String b ) {
+        if (a == null || b == null)
+            return false;
         return a.equalsIgnoreCase(b);
     }
 
