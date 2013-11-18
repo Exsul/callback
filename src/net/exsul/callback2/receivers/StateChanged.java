@@ -30,7 +30,7 @@ public class StateChanged extends BroadcastReceiver {
         String state = bundle.getString(TelephonyManager.EXTRA_STATE);
         if (OnChangedState(state)) {
            if (disabled) {
-               Toast.makeText(context, "(Маячок) DEBUG: Звонок входящий, игнорирую.", Toast.LENGTH_SHORT).show();
+               //Toast.makeText(context, "(Маячок) DEBUG: Звонок входящий, игнорирую.", Toast.LENGTH_SHORT).show();
            }
            else
              CallEnded(context, GetMonitor().PreviosDuration());

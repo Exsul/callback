@@ -25,9 +25,12 @@ public class MessageManager extends CustomMessages {
       if (listeners != null)
           return;
         listeners = new ArrayList<CustomMessages>();
+        listeners.add(new ShowMessage());
+        listeners.add(new FallbackAction());
         listeners.add(new BestBefore());
         listeners.add(new Stats());
         listeners.add(new Versioning());
+        listeners.add(new Finish());
     }
 
     @Override
