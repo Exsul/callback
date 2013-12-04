@@ -42,23 +42,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fd60c84-78a3-41a5-8bcc-5c8076079689" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/exsul/callback2/Extra/Finish.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/exsul/callback2/Extra/ShowMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/icon.png" afterPath="$PROJECT_DIR$/res/drawable/icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/exsul/callback2/Extra/Broadcast.java" afterPath="$PROJECT_DIR$/src/net/exsul/callback2/Extra/Broadcast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java" afterPath="$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/exsul/callback2/Extra/FallbackAction.java" afterPath="$PROJECT_DIR$/src/net/exsul/callback2/Extra/FallbackAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/exsul/callback2/Extra/Finish.java" afterPath="$PROJECT_DIR$/src/net/exsul/callback2/Extra/Finish.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/exsul/callback2/Extra/MessageManager.java" afterPath="$PROJECT_DIR$/src/net/exsul/callback2/Extra/MessageManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/exsul/callback2/receivers/StateChanged.java" afterPath="$PROJECT_DIR$/src/net/exsul/callback2/receivers/StateChanged.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="callback.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384783566300" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1386120147253" ignored="false" />
     <file path="/IncomingCallReceiver.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381613606791" ignored="false" />
-    <file path="/fragment.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384801569466" ignored="false" />
+    <file path="/fragment.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384807386781" ignored="false" />
     <file path="/MyActivity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381615847256" ignored="false" />
     <file path="/OutgoingCallReceiver.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382225369607" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382206767378" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384815090450" ignored="false" />
     <file path="/StateChanged.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384791771104" ignored="false" />
     <file path="/Switch.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1383999684514" ignored="false" />
     <file path="/CallbackService.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381664793514" ignored="false" />
@@ -66,17 +65,26 @@
     <file path="/CallbackDialog.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1381668107126" ignored="false" />
     <file path="/my_activity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382225480261" ignored="false" />
     <file path="/DialogActivity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384792482294" ignored="false" />
-    <file path="/strings.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384002644057" ignored="false" />
+    <file path="/strings.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384806554491" ignored="false" />
     <file path="/main.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1382222932390" ignored="false" />
     <file path="/CustomMessages.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384003753708" ignored="false" />
-    <file path="/MessageManager.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384804832494" ignored="false" />
+    <file path="/MessageManager.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384809737011" ignored="false" />
     <file path="/BestBefore.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384010926616" ignored="false" />
     <file path="/Stats.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384014137133" ignored="false" />
     <file path="/Versioning.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384014209340" ignored="false" />
-    <file path="/Broadcast.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384804593186" ignored="false" />
+    <file path="/Broadcast.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384807061776" ignored="false" />
     <file path="/ShowMessage.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384791572958" ignored="false" />
-    <file path="/FallbackAction.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384801729049" ignored="false" />
-    <file path="/Finish.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384801673901" ignored="false" />
+    <file path="/FallbackAction.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384807029609" ignored="false" />
+    <file path="/Finish.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384809758285" ignored="false" />
+    <file path="$PROJECT_DIR$/../Callback_Direct/AndroidManifest.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384815142176" ignored="false" />
+    <file path="$PROJECT_DIR$/../Callback_Direct/project.properties" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384805750117" ignored="false" />
+    <file path="$PROJECT_DIR$/../Callback_Direct/res/values/strings.xml" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384806554244" ignored="false" />
+    <file path="$PROJECT_DIR$/../Callback_Direct/src/net/exsul/callback_direct/InstallActivity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384807755456" ignored="false" />
+    <file path="/InstallActivity.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384807479690" ignored="false" />
+    <file path="$PROJECT_DIR$/../Callback_Direct/gen/net/exsul/callback_direct/Manifest.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384815143671" ignored="false" />
+    <file path="$PROJECT_DIR$/../Callback_Direct/gen/net/exsul/callback_direct/BuildConfig.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384815670099" ignored="false" />
+    <file path="$PROJECT_DIR$/../Callback_Direct/src/net/exsul/callback_direct/RapidReceiver.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384815131701" ignored="false" />
+    <file path="/RapidReceiver.java" changelist="9fd60c84-78a3-41a5-8bcc-5c8076079689" time="1384807292917" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,22 +177,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DialogActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java">
+      <file leaf-file-name="FallbackAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/FallbackAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="57" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
+            <state line="23" column="53" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FallbackAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/FallbackAction.java">
+      <file leaf-file-name="MessageManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/MessageManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="48" selection-start="244" selection-end="265" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="39" column="0" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -192,63 +198,16 @@
       <file leaf-file-name="Finish.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/Finish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="98" selection-end="248" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageManager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/MessageManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="48" selection-start="843" selection-end="843" vertical-scroll-proportion="0.44">
+            <state line="8" column="47" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="33" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BestBefore.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/BestBefore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stats.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/Stats.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="240" selection-end="279" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StateChanged.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/receivers/StateChanged.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Broadcast.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/Broadcast.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+            <state line="4" column="36" selection-start="219" selection-end="219" vertical-scroll-proportion="0.08292683">
               <folding />
             </state>
           </provider>
@@ -261,6 +220,51 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StateChanged.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/receivers/StateChanged.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="27" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstallActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/InstallActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="8" selection-start="1615" selection-end="1662" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="23" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutgoingCallReceiver.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/receivers/OutgoingCallReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Broadcast.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/Broadcast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="25" selection-start="497" selection-end="543" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -299,11 +303,11 @@
         <option value="$PROJECT_DIR$/src/net/exsul/callback2/receivers/StateChanged.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback2/DialogActivity.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback2/Extra/ShowMessage.java" />
-        <option value="$PROJECT_DIR$/src/net/exsul/callback2/Extra/Finish.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback2/Extra/FallbackAction.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/net/exsul/callback2/Extra/Broadcast.java" />
         <option value="$PROJECT_DIR$/src/net/exsul/callback2/Extra/MessageManager.java" />
+        <option value="$PROJECT_DIR$/src/net/exsul/callback2/Extra/Finish.java" />
+        <option value="$PROJECT_DIR$/src/net/exsul/callback2/Extra/Broadcast.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -355,7 +359,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -507,29 +510,37 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
     <property name="ExportedApkPath" value="C:\Users\Enelar\Documents\GitHub\callback\callback.apk" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="ExportedModule" value="callback" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="callback" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
     <property name="AndroidLayoutSelectedEditor" value="android-designer" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -569,19 +580,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -607,6 +605,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -765,7 +776,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3979239" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3979239" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292978" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -775,7 +786,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24921875" sideWeight="0.6020761" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24921875" sideWeight="0.6724337" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756633" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.6718507" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -852,30 +863,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/InstallActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="82" selection-start="2243" selection-end="2255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/CustomMessages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="4" selection-start="264" selection-end="309" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/receivers/OutgoingCallReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -889,38 +879,13 @@
     </entry>
     <entry file="jar://C:/Program Files/ADT/sdk/platforms/android-3/android.jar!/android/content/ContextWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/receivers/StateChanged.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="35" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/Stats.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="4" selection-start="240" selection-end="279" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="33" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/Finish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="98" selection-end="248" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,19 +903,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/Broadcast.java">
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/InstallActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+        <state line="48" column="8" selection-start="1615" selection-end="1662" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/receivers/StateChanged.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="27" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/Finish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="47" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/receivers/OutgoingCallReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/MessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/FallbackAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="244" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="23" column="53" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/Broadcast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="497" selection-end="543" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -963,9 +968,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/exsul/callback2/Extra/MessageManager.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="48" selection-start="843" selection-end="843" vertical-scroll-proportion="0.44">
+        <state line="4" column="36" selection-start="219" selection-end="219" vertical-scroll-proportion="0.08292683">
           <folding />
         </state>
       </provider>

@@ -12,10 +12,14 @@ public class FallbackAction extends CustomMessages {
          MakeCallback(c);
     }
 
+    public String GetURI( final Context c ) {
+        return "tel:*" + Uri.encode(getPreValue(c)) + "*" + StateChanged.saved_phone + Uri.encode("#");
+    }
+
     public void MakeCallback( final Context c ){
         final Intent intent = new Intent(Intent.ACTION_DIAL);
 
-        final String enc = "tel:*" + Uri.encode(getPreValue(c)) + "*" + StateChanged.saved_phone + Uri.encode("#");
+        final String enc = GetURI(c);
         intent.setData(Uri.parse(enc));
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         c.startActivity(intent);

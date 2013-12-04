@@ -6,6 +6,7 @@ import android.content.Context;
 public class Finish extends CustomMessages {
     @Override
     public void OnMessageClose( final Context c ) {
+        MessageManager.Instance().ClearArray();
         ((Activity)c).finish();
     }
 }

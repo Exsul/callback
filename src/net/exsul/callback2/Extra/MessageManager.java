@@ -26,6 +26,10 @@ public class MessageManager extends CustomMessages {
         return listeners;
     }
 
+    public void ClearArray() {
+        listeners = null;
+    }
+
     void InitArray( final Context c ) {
       if (listeners != null)
           return;
